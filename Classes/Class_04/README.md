@@ -85,8 +85,8 @@ Example: { "Monday": ["Breakfast: ...", "Lunch: ..."] }
 ## **6. Control Output Format**
 
 - **Idea:** Specify exactly how you want AI to return answers.
-- **Example:**  
-```json
+- **Example:**
+json
 {
   "main_idea": "string",
   "supporting_points": ["string", "string"],

@@ -1,0 +1,66 @@
+Guide to Effective AI Prompting
+
+This is a simple guide to help you write better prompts for AI. Follow these steps:
+
+Be Clear and Specific
+Tell AI exactly what you want.
+Example: Instead of “Write about dogs,” say: “Write a 300-word article about health benefits of dogs for mental and physical health, using a friendly tone.”
+
+Use Action Words
+Use words like Analyze, Compare, Create, Describe, Explain.
+Example: “Compare the sizes and atmospheres of Earth, Mars, and Venus in a table.”
+
+Show Examples
+Give AI a sample output so it knows what you want.
+Example: Task: Summarize this paragraph. Example output: { "summary": "..." }
+
+Structure Your Prompts
+Organize your prompt with:
+Task: What to do
+Context: Background info
+Format: How answer should look
+Example: Sample answer
+
+Positive Instructions Work Better
+Tell AI what to do, not just what NOT to do.
+Example: Instead of “Don’t write too long,” say: “Write a short professional email summarizing meeting points.”
+
+Control Output Format
+If you want a special format, tell AI.
+Example: Return as JSON: { "main_idea": "text", "supporting_points": ["point1","point2"] }
+
+Use Variables for Reusability
+Make prompts flexible using placeholders like {expertise}, {document_type}, {audience}.
+
+Test and Improve
+Keep track of what works, try different versions, and improve your prompts over time.
+
+Common Mistakes to Avoid
+
+Vague prompts → unclear answers. Be specific.
+
+Conflicting instructions → confusing AI. Check your instructions.
+
+Too many restrictions → limits creativity. Focus on positive instructions.
+
+Ignoring limits → AI might stop mid-answer. Keep tasks small.
+
+Not testing → first attempt is rarely perfect. Try variations.
+
+Quick Examples
+
+Social media post: “Write a short Instagram post for a new Pumpkin Spice Latte. Target: coffee lovers 25-40. Tone: warm. Include taste and aroma details.”
+
+Customer feedback: Analyze reviews, give sentiment %, top positives and issues, recommendations.
+
+Code: “Write Python function to sort list of dictionaries by key. Handle missing keys. Include example usage.”
+
+Tips for Beginners
+
+Clear → Specific → Structured → Tested
+
+Show examples
+
+Split big tasks into small steps
+
+Test and improve

@@ -166,7 +166,6 @@ So if **k = 3**, it only looks at:
 
 idea (0.40), concept (0.30), thought (0.20)
 
-
 and completely ignores “car” and “pizza.”
 
 ✅ **Result:** safer, more focused sentences  

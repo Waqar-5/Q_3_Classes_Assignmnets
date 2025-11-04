@@ -231,7 +231,6 @@ Evaluate Results: Accuracy, relevance, completeness, style, format ✅
 🚀 Advanced Tips (2025)
 🧱 Structured Outputs
 json
-Copy code
 {
   "summary": "brief overview",
   "key_insights": ["insight1", "insight2"],
@@ -281,9 +280,6 @@ This guide helps you write better prompts for AI. It is simple, clear, and easy 
 Tell AI exactly what you want.
 
 Example:
-
-vbnet
-Copy code
 Instead of: "Write about dogs"  
 Say: "Write a 300-word article about health benefits of dogs for mental and physical health, using a friendly tone."
 ⚡ Use Action Words
@@ -291,16 +287,12 @@ Use words like Analyze, Compare, Create, Describe, Explain
 
 Example:
 
-css
-Copy code
 Compare the sizes and atmospheres of Earth, Mars, and Venus in a table.
 🧠 Show Examples
 Give AI a sample output to understand your expectations.
 
 Example:
 
-arduino
-Copy code
 Task: Summarize this paragraph  
 Example Output: { "summary": "..." }
 🧩 Structure Your Prompts
@@ -319,8 +311,6 @@ Tell AI what to do — not what not to do.
 
 Example:
 
-vbnet
-Copy code
 Instead of: "Don’t write too long"  
 Say: "Write a short professional email summarizing meeting points."
 ⚙️ Control Output Format
@@ -329,7 +319,6 @@ Specify output format if needed.
 Example:
 
 json
-Copy code
 { "main_idea": "text", "supporting_points": ["point1", "point2"] }
 🔁 Use Variables for Reusability
 Make prompts flexible using placeholders like {expertise}, {document_type}, {audience}.
@@ -355,8 +344,7 @@ Not testing → first attempt rarely perfect.
 
 ⚙️ Quick Examples
 ☕ Social Media Post
-vbnet
-Copy code
+
 Write a short Instagram post for a new Pumpkin Spice Latte.
 Target: coffee lovers 25–40.
 Tone: warm. Include taste and aroma details.
@@ -369,9 +357,6 @@ List top positives and issues
 
 Give recommendations
 
-💻 Code Example
-pgsql
-Copy code
 Write Python function to sort list of dictionaries by key.
 Handle missing keys. Include example usage.
 
